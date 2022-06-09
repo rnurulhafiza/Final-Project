@@ -36,7 +36,7 @@ y = iris['species']
 y.head()
 
 clf = RandomForestClassifier()
-clf.fit(X, Y)
+clf.fit(X, y)
 
 prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
