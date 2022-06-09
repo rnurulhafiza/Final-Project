@@ -29,7 +29,7 @@ st.write(df)
 
 iris = pd.read_csv('https://raw.githubusercontent.com/rnurulhafiza/Final-Project/main/IRIS.csv')
                
-X = X.drop(species, axis = 1)
+X = X.drop('species', axis = 1)
 X.head()
 
 y = iris['species']
