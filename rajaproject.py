@@ -8,10 +8,10 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
-st.image(numpy_array)
-st.image(image_bytes)
-st.image(file)
-st.image(https://user-images.githubusercontent.com/107098919/172779082-a6689d4c-587f-40ea-a7e7-46a78470ed4c.jpg)
+from PIL import Image
+image = Image.open('https://user-images.githubusercontent.com/107098919/172779082-a6689d4c-587f-40ea-a7e7-46a78470ed4c.jpg')
+
+st.image(image, caption='Iris Types'
 
 st.sidebar.header('User Input Parameters')
 
