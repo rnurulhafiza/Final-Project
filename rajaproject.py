@@ -11,7 +11,7 @@ This app predicts the **Iris flower** type!
 st.image(numpy_array)
 st.image(image_bytes)
 st.image(file)
-st.image(https://user-images.githubusercontent.com/107098919/172779082-a6689d4c-587f-40ea-a7e7-46a78470ed4c.jpg)
+st.image![Iris type](https://user-images.githubusercontent.com/107098919/172779082-a6689d4c-587f-40ea-a7e7-46a78470ed4c.jpg)
 
 st.sidebar.header('User Input Parameters')
 
